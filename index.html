@@ -8,7 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-  
+
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -28,6 +28,7 @@
       min-height: 100vh;
       background-color: #D5E1EF;
     }
+
     .QR {
       width: 300px;
       min-height: 400px;
@@ -39,14 +40,22 @@
       align-items: center;
       padding: 20px;
       text-align: center;
-      
+
     }
+
     .QR img {
       width: 100%;
       height: auto;
       border-radius: 10px;
       margin-bottom: 20px;
     }
+
+    .QR h1 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
     .QR p {
       text-align: center;
       font-size: 12px;
@@ -54,7 +63,8 @@
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    .attribution{
+
+    .attribution {
       font-size: 14px;
       color: #666;
       margin-top: 20px;
@@ -66,16 +76,18 @@
 </head>
 
 <body>
-  
-  <div class="QR">
+  <main>
+    <div class="QR">
       <img src="./images/image-qr-code.png" alt="QR Code">
-      <h3>Improve your front-end skills by building projects</h3>
+      <h1>Improve your front-end skills by building projects</h1>
       <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-  </div>
-  <div class="attribution">
+    </div>
+  </main>
+
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Quan Dang | Amu </a>.
-  </div>
+    Coded by <a href="#">Quan Dang | Amu</a>.
+  </footer>
 </body>
 
 </html>
